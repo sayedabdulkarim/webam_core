@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link rel="icon" href="https://res.cloudinary.com/cnq-first/image/upload/v1699104437/Abdul_dekwwr.jpg" type="image/x-icon" /> <!-- Favicon link -->
+    <title>Abdul's Custom Webcam</title>
+  </head>
+  <body>
+    <div class="back">BACK</div>
+    <div class="gallery-cont"></div>
+
+    <script src="./db.js"></script>
+    <script src="./gallery.js"></script>
+    <script>
+      let backElem = document.querySelector(".back");
+      backElem.addEventListener("click", (e) => {
+        location.assign("./index.html");
+      });
+    </script>
+  </body>
+</html>
